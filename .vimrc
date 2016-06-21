@@ -18,6 +18,8 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'tpope/vim-fugitive'
 Plugin 'pangloss/vim-javascript'
 Plugin 'tpope/vim-surround'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
 
@@ -29,6 +31,9 @@ syntax on
 
 let mapleader=","
 
+colorscheme solarized
+syntax enable
+set background=dark
 colorscheme solarized
 
 set cursorline
